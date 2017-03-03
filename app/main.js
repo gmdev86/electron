@@ -25,7 +25,7 @@ app.on('ready', () => {
 
     appWindow.once('ready-to-show', () => {
         appWindow.show();
-        setTimeout(()=>{
+        //setTimeout(()=>{
         //     infoWindow.show();
         //     setTimeout(()=>{
         //         infoWindow.hide();
@@ -38,4 +38,4 @@ app.on('ready', () => {
         inforWindow.hide();
     }); // close info window
 
-}); // app is ready
+});
